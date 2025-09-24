@@ -3,13 +3,12 @@ const app = express();
 const mongoose = require('mongoose');
 //const bodyParser = require('body-parser')
 const authRoute = require('./routes/auth');
-const postRoute = require('./routes/posts')
 require('dotenv/config')
 
 
 //app middleware
 app.use(express.json());
-app.use('/api/user/', authRoute);
+app.use('/api/authnticate/', authRoute);
 app.use('/api/post/', postRoute);
 try{
     mongoose.connect(process.env.DB_CONNECTION);
