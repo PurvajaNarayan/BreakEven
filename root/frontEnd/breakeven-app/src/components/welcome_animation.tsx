@@ -684,7 +684,7 @@ function BillBody() {
 
       {/* Title */}
       <text x={cx} y={ry + 34} textAnchor="middle" style={{ fontFamily: 'Georgia, Times New Roman, serif', fontWeight: 700, fontStyle: 'italic', fontSize: 18 }}>
-        Shetty Purvaja Mane Market
+        Shetty Purvaja Market
       </text>
       <text x={cx} y={ry + 52} textAnchor="middle" style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', fontSize: 10 }}>
         Krishna Matha Road, 
